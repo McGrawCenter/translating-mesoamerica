@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es"><!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>
+    Translating Mesoamerica
+  </title>
+  <meta name="description" content="Nahuatl documents from the Princeton University Library collection">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@iiif/vault@latest/dist/index.umd.js?ver=6.6.1" id="canvaspanel-js"></script>
+  
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+  <!--<script src="/translating-mesoamerica/assets/js/mirador.min.js "></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/mirador@3.3.0/dist/mirador.min.js"></script>
+  
+  <script src="/translating-mesoamerica/assets/openseadragon/openseadragon.min.js"></script>
+     
+          
+  <!--<script src="/translating-mesoamerica/assets/js/tify/tify.js"></script>-->
+  <link rel="stylesheet" href="/translating-mesoamerica/assets/css/main.css">
+  <link rel="stylesheet" href="/translating-mesoamerica/assets/css/style.css">
+  <!--<link rel="stylesheet" href="/translating-mesoamerica/assets/js/tify/tify.css">-->
+</head>
+<body>
+<body>
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/translating-mesoamerica/es/index.html">La traducción de Mesoamérica</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/translating-mesoamerica/es/index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/translating-mesoamerica/es/map.html">Mapa</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="/translating-mesoamerica/es/alphabet.html">Alfabeto</a>
+        </li>                
+        <li class="nav-item">
+          <a class="nav-link" href="/translating-mesoamerica/es/about.html">Acerca de este sitio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/translating-mesoamerica/index.html" style="display: inline;padding-right: 0px;">Inglés</a> | <a class="nav-link" href="/translating-mesoamerica/es/index.html" style="display: inline;padding-left: 0px;">Español</a>
+        </li>        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+      
+  <!-- Page Header  62 42 42 or  92, 77, 66 or 100, 0, 7-->
+
+<!--
+<header class="masthead narrow" style="padding: 50px 0 0px 0;background: linear-gradient(to bottom, rgba(23, 20, 20, 0.8) 0%, rgba(23, 20, 20, 0.5) 100%), url(/translating-mesoamerica/assets/images/bg-masthead.jpg);">-->
+
+<header class="masthead narrow" style="padding: 50px 0 0px 0;background:linear-gradient(to top, rgba(123, 120, 120, 0.8) 0%, rgba(10, 10, 10, 0.5) 100%), url(/translating-mesoamerica/assets/images/banner4.jpg);background-size:cover;">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1 class="site-title"><a href="/translating-mesoamerica/es/index.html">La traducción de Mesoamérica</a></h1>
+            
+            <span class="subheading">Transcripciones y traducciones de la colección de manuscritos mesoamericanos<br />de la Biblioteca de la Universidad de Princeton
+</span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+<p><!-- Leaflet --></p>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<style>
+   #mapmenu {background: white; font-size:0.8em;padding:0 1em 1em 1em;min-width:200px;}
+   #mapmenu ul { margin:0px; padding:0px; }
+   #mapmenu ul li { list-style-type:none;; }
+   .colorsquare { 
+     background-color: #700;
+     width: 1rem;
+     height: 1rem;
+     display: block;
+     left: -0.5rem;
+     top: 0.3rem;
+     position: relative;
+     border-radius: 1rem;
+     border: 1px solid #FFFFFF;
+     display:inline-block;
+     margin-right:0.2em;
+    }
+   .icon {  
+     background-color: #EEE;
+     width: 2rem;
+     height: 2rem;
+     display: block;
+     left: -1rem;
+     top: -1rem;
+     position: relative;
+     border-radius: 2rem 2rem 0;
+     transform: rotate(45deg);
+     border: 1px solid #FFFFFF;
+     }
+
+    }
+   </style>
+
+<div class="container">
+     <div class="row">
+	      
+		<div class="col-md-12">
+<h2>Mapa</h2>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+    
+    
+    
+    <div id="map" style="width:100%;height:700px;"></div></div>
+    <div class="col-md-4"><div id="mapmenu" style="width:100%">
+  <ul></ul>
+</div></div>
+  </div>
+</div>
+
+<div id="mapframe" style="display:flex;flex-wrap:nowrap;">
+
+
+</div>
+<script>
+
+jQuery(document).ready(function(){
+
+	const osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+	});
+
+	const map = L.map('map', {
+		center: [17.197435967112632, -95.60086982775229],
+		zoom: 6,
+		layers: [osm]
+	});
+	
+	
+	var data = [{"manifest_identifier":"breve","Title":"Breve Tratado de Doctrina Christiana...","Location":"Taxco","Color":"#df0119","Link":null,"Latitude":"18.5565468","Longitude":"-99.6051206"},{"manifest_identifier":"breve","Title":"Breve Tratado de Doctrina Christiana...","Location":"Convento de San Bernardino de Siena","Color":"#df0119","Link":null,"Latitude":"18.5582849","Longitude":"-99.6040972"},{"manifest_identifier":"choral","Title":"Miscelánea de música coral, 1635","Location":"San Juan Ixcoy","Color":"#3d3d3d","Link":null,"Latitude":"15.5998658","Longitude":"-91.4470937"},{"manifest_identifier":"choral","Title":"Miscelánea de música coral, 1635","Location":"San Miguel Acatan","Color":"#3d3d3d","Link":null,"Latitude":"15.7043595","Longitude":"-91.5996085"},{"manifest_identifier":"hacienda","Title":"Registros de la Hacienda de Santa Bárbara (Tlaxcala, México), 1553-1802","Location":"Hacienda Santa Barbara","Color":"#a53636","Link":null,"Latitude":"19.3349076","Longitude":"-98.0114291"},{"manifest_identifier":"tlaxcala","Title":"Documentos legales de Tlaxcala, 1694-1843","Location":"San Andrés Ahuashuatepec","Color":"#d7b58a","Link":null,"Latitude":"19.3790492","Longitude":"-98.1061629"},{"manifest_identifier":"tlaxcala","Title":"Documentos legales de Tlaxcala, 1694-1843","Location":"Tzompantepec","Color":"#d7b58a","Link":null,"Latitude":"19.3736709","Longitude":"-98.0929034"},{"manifest_identifier":"lienzo","Title":"Lienzo de San Pedro Ixcatlan, [entre 1775 y 1850]","Location":"San Pedro Ixcatlán","Color":"#649d9f","Link":null,"Latitude":"18.1443767","Longitude":"-96.5101716"},{"manifest_identifier":"aubin","Title":"Códice Aubin: manuscrito, [entre 1775 y 1825]","Location":"Mexico City","Color":"#f28258","Link":null,"Latitude":"19.4326077","Longitude":"-99.133208"},{"manifest_identifier":"land-transfers","Title":"Transferencias de tierras indígenas mexicanas, 1602-1849","Location":"Mexico City","Color":"#106a10","Link":null,"Latitude":"19.4327076","Longitude":"-99.134207"},{"manifest_identifier":"tecamachalco","Title":"Documentos legales de Tecamachalco, [1557-1594]","Location":"Tecamachalco","Color":"#f28e10","Link":null,"Latitude":"18.8819104","Longitude":"-97.7327256"},{"manifest_identifier":"tula1","Title":"Documentos de Tula, 1571-1617","Location":"Tula","Color":"#91b991","Link":null,"Latitude":"20.0535516","Longitude":"-99.3395636"},{"manifest_identifier":"mapa","Title":"Mapa azteca con glifos","Location":"Cuautlancingo","Color":"#51478d","Link":null,"Latitude":"19.1044894","Longitude":"-98.2765151"},{"manifest_identifier":"tula2","Title":"Documentos de Tula, 1605-1630","Location":"Tula","Color":"#2b92f2","Link":null,"Latitude":"20.41662","Longitude":"-99.22939"},{"manifest_identifier":"traducese","Title":"Traducese al Romance castellano, la Relación Mercuriana","Location":"Amecameca","Color":"#d4a42d","Link":null,"Latitude":"19.1223754","Longitude":"-98.7667481"},{"manifest_identifier":"sermons","Title":"Sermones en náhuatl y la obra \"Miércoles Santo\"","Location":"Colegio de Santa Cruz de Tlatelolco","Color":"#aec0d8","Link":null,"Latitude":"19.450755","Longitude":"-99.1366801"},{"manifest_identifier":"sermons","Title":"Sermones en náhuatl y la obra \"Miércoles Santo\"","Location":"San Pedro y San Pablo","Color":"#aec0d8","Link":null,"Latitude":"19.1632111","Longitude":"-99.6169114"},{"manifest_identifier":"aztec","Title":"Mapa azteca con glifos","Location":"Tula","Color":"#ff83f3","Link":"aztec.html","Latitude":"20.4166252","Longitude":"-99.229398"},{"manifest_identifier":"aztec","Title":"Mapa azteca con glifos","Location":"Mexico City","Color":"#ff83f3","Link":"aztec.html","Latitude":"19.4326077","Longitude":"-99.133208"}];
+	
+	data.forEach((location) => {
+	   console.log(location);
+	
+	});
+	
+
+	jQuery.getJSON("/translating-mesoamerica/assets/locations.json", function( data ) {
+	  jQuery.each(data, function(i,v){
+	  
+	      var myIcon = L.divIcon({className: "my-custom-pin",iconAnchor: [0, 24],labelAnchor: [-6, 0],popupAnchor: [0, -36],html: `<span class='icon' style='background:`+v.color+`' />`})
+
+	      jQuery("#mapmenu ul").append("<li><span class='colorsquare' style='background:"+v.color+"'></span><a href='#' class='layer' data-zoom="+v.zoom+">"+v.layer+"</a></li>");
+	  
+	      jQuery.each(v.locations, function(j,k){
+		 var latlng = k.coordinates.split(',');
+		 L.marker(latlng, { icon: myIcon }).bindPopup(k.title).addTo(map);
+	      });
+	      
+	  });
+
+	});
+
+	jQuery(document).on("click",".layer",function(e){
+	   map.panTo([0,0]);
+	  var zoom = jQuery(this).attr('data-zoom');
+	  console.log(zoom);
+	  var z = zoom.split(',');
+	  map.panTo([z[0], z[1]]);
+	  map.setZoom(z[2]);
+	  e.preventDefault();
+	});
+
+
+});
+
+
+
+
+
+</script>
+  
+		</div>
+	</div> <!-- /.row -->
+</div>
+<p><!-- /.container --></p>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-md-8">
+       &copy; 2024 Trustees of <a href="https://www.princeton.edu">Princeton University</a> and Nadia Cervantes Pérez<br />
+       <p style="font-size:0.8em;margin-top:0px;"><a href="/content/copyright-infringement" data-drupal-link-system-path="node/20201">Copyright Infringement</a> | <a href="/privacy-notice" data-drupal-link-system-path="node/174186">Privacy Notice</a></p>
+       
+      </div>
+      <div class="col-md-4">
+       <a href="https://www.princeton.edu"><img src="/translating-mesoamerica/assets/images/PU1line.png" width="100%"/></a>
+       
+      </div>    
+
+
+    </div>
+  </div>
+</footer>
+
+
+  <script src="/translating-mesoamerica/assets/js/scripts.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('#myTabs a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+    });
+  });
+</script>
+
+
+</body>
+
+</html>
+</body>
+
+</html>

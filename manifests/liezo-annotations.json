@@ -1,0 +1,25 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "http://localhost:4000/translating-mesoamerica4/manifests/aubin-annotations.json",
+  "@type": "sc:AnnotationList",
+  "resources": [
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource":{
+        "@type": "cnt:ContentAsText",
+        "chars": "My first text annotation for canvas 1"
+      },
+      "on": "https://figgy.princeton.edu/concern/scanned_resources/d079aa60-e164-42f4-b834-a7249be2e895/manifest/canvas/6bb1ed97-ba93-48b3-ad38-9e4973678de2"
+    },
+    {
+      "@type": "oa:Annotation",
+      "motivation": "sc:painting",
+      "resource":{
+        "@type": "cnt:ContentAsText",
+        "chars": "My second text annotation for canvas 1"
+      },
+      "on": "https://figgy.princeton.edu/concern/scanned_resources/d079aa60-e164-42f4-b834-a7249be2e895/manifest/canvas/6bb1ed97-ba93-48b3-ad38-9e4973678de2"
+    }
+  ]
+}

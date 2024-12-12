@@ -1,0 +1,200 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://figgy.princeton.edu/concern/scanned_resources/d079aa60-e164-42f4-b834-a7249be2e895/manifest",
+  "label": [
+    "Lienzo de San Pedro Ixcatlan, [between 1775 and 1850]."
+  ],
+  "viewingHint": "individuals",
+  "metadata": [
+    {
+      "label": "Abstract",
+      "value": [
+        "The lienzo is a map of a region around San Pedro Ixcatlan in the ex-district of Tuxtepec in the Mazatec Indian area of northern Oaxaca, Mexico. At the center is an historical scene and a Nahuatl text that describe the arrival of the Spanish conquistador, Juan Marques, in 1521, the baptism of an Indian lord who took the name of Juan de Mendoza, and an encomendero of the de Nava family, encomenderos of Ixcatlan from about 1546-1603. Several rivers are also shown as are a number of place glyphs and mountains, most of which are glossed in Nahuatl. Near the center is a long text in Nahuatl and elsewhere, particularly around the periphery, are 19 glossed place names, 18 of which are in Nahuatl. Other titles: Lienzo de San Pedro Ixcatlan; San Miguel Soyaltepec; Lienzo de Tuztepec."
+      ]
+    },
+    {
+      "label": "Alternative",
+      "value": [
+        "San Miguel Soyaltepec",
+        "Lienzo de Tuztepec"
+      ]
+    },
+    {
+      "label": "Extent",
+      "value": [
+        "1 item : cloth ; 1280 x 1380 mm."
+      ]
+    },
+    {
+      "label": "Identifier",
+      "value": [
+        "ark:/88435/qr46r6291"
+      ]
+    },
+    {
+      "label": "Title",
+      "value": [
+        {
+          "@language": "myn",
+          "@value": "Lienzo de San Pedro Ixcatlan, [between 1775 and 1850]."
+        }
+      ]
+    },
+    {
+      "label": "Type",
+      "value": [
+        "Maps",
+        "Linen",
+        "Maps, Manuscript",
+        "Sources"
+      ]
+    },
+    {
+      "label": "Provenance",
+      "value": [
+        "Early provenance unknown."
+      ]
+    },
+    {
+      "label": "Date",
+      "value": [
+        "[between 1775 and 1850]."
+      ]
+    },
+    {
+      "label": "Language",
+      "value": [
+        "Mayan languages"
+      ]
+    },
+    {
+      "label": "Text Language",
+      "value": [
+        "Text in Nahuatl with some Spanish."
+      ]
+    },
+    {
+      "label": "Subject",
+      "value": [
+        "Names, Geographical—Mexico"
+      ]
+    },
+    {
+      "label": "Source Acquisition",
+      "value": [
+        "Gift Robert Garrett, 1949."
+      ]
+    },
+    {
+      "label": "Call Number",
+      "value": [
+        "C0744.02 (Garrett Mesoamerican Manuscripts, no. 19)"
+      ]
+    },
+    {
+      "label": "Location",
+      "value": [
+        "HSVM C0744.02 (Garrett Mesoamerican Manuscripts, no. 19)"
+      ]
+    },
+    {
+      "label": "Member Of Collections",
+      "value": [
+        "Mesoamerican Manuscripts",
+        "Robert Garrett",
+        "Digitized Manuscripts",
+        "Collections Donated to Princeton University Library",
+        "Indigenous Cultures"
+      ]
+    }
+  ],
+  "sequences": [
+    {
+      "@type": "sc:Sequence",
+      "@id": "https://figgy.princeton.edu/concern/scanned_resources/d079aa60-e164-42f4-b834-a7249be2e895/manifest/sequence/normal",
+      "rendering": [
+        {
+          "@id": "https://figgy.princeton.edu/catalog/d079aa60-e164-42f4-b834-a7249be2e895/pdf",
+          "label": "Download as PDF",
+          "format": "application/pdf"
+        }
+      ],
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://figgy.princeton.edu/concern/scanned_resources/d079aa60-e164-42f4-b834-a7249be2e895/manifest/canvas/6bb1ed97-ba93-48b3-ad38-9e4973678de2",
+          "label": "1",
+          "rendering": [
+            {
+              "@id": "https://figgy.princeton.edu/downloads/6bb1ed97-ba93-48b3-ad38-9e4973678de2/file/454db6ba-8dd4-4239-9633-fe85d9234c07",
+              "label": "Download the original file",
+              "format": "image/tiff"
+            }
+          ],
+          "width": 22987,
+          "height": 21468,
+          "images": [
+            {
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@type": "dctypes:Image",
+                "@id": "https://iiif-cloud.princeton.edu/iiif/2/e2%2F83%2Fdc%2Fe283dce31331416bbc9750c264ff2787%2Fintermediate_file/full/1000,/0/default.jpg",
+                "height": 21468,
+                "width": 22987,
+                "format": "image/jpeg",
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-cloud.princeton.edu/iiif/2/e2%2F83%2Fdc%2Fe283dce31331416bbc9750c264ff2787%2Fintermediate_file",
+                  "profile": "http://iiif.io/api/image/2/level2.json"
+                }
+              },
+              "@id": "https://figgy.princeton.edu/concern/scanned_resources/d079aa60-e164-42f4-b834-a7249be2e895/manifest/image/6bb1ed97-ba93-48b3-ad38-9e4973678de2",
+              "on": "https://figgy.princeton.edu/concern/scanned_resources/d079aa60-e164-42f4-b834-a7249be2e895/manifest/canvas/6bb1ed97-ba93-48b3-ad38-9e4973678de2"
+            }
+          ],
+          "otherContent": [{
+		  "@id": "http://localhost:4000/manifests/liezo-annotations.json",
+		  "@type": "sc:AnnotationList"
+		}]
+        }
+      ],
+      "viewingHint": "individuals"
+    }
+  ],
+  "structures": [
+    {
+      "@type": "sc:Range",
+      "@id": "https://figgy.princeton.edu/concern/scanned_resources/d079aa60-e164-42f4-b834-a7249be2e895/manifest/range/rbf9c376b-8156-4dd2-b11c-834d86ef10e3",
+      "label": "Logical",
+      "viewingHint": "top",
+      "ranges": [],
+      "canvases": []
+    }
+  ],
+  "seeAlso": [
+    {
+      "@id": "https://figgy.princeton.edu/catalog/d079aa60-e164-42f4-b834-a7249be2e895.jsonld",
+      "format": "application/ld+json"
+    },
+    {
+      "@id": "https://catalog.princeton.edu/catalog/9939273343506421.marcxml",
+      "format": "text/xml"
+    }
+  ],
+  "license": "http://rightsstatements.org/vocab/NKC/1.0/",
+  "thumbnail": {
+    "@id": "https://iiif-cloud.princeton.edu/iiif/2/e2%2F83%2Fdc%2Fe283dce31331416bbc9750c264ff2787%2Fintermediate_file/full/!200,150/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif-cloud.princeton.edu/iiif/2/e2%2F83%2Fdc%2Fe283dce31331416bbc9750c264ff2787%2Fintermediate_file",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "rendering": {
+    "@id": "http://arks.princeton.edu/ark:/88435/qr46r6291",
+    "format": "text/html"
+  },
+  "logo": "https://figgy.princeton.edu/assets/pul_logo_icon-5333765252f2b86e34cd7c096c97e79495fe4656c5f787c5510a84ee6b67afd8.png"
+}

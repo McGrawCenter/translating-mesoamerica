@@ -1,0 +1,11 @@
+---
+ident: 'tlaxcala'
+title: 'Translation'
+pagenum: 2
+---
+And I say [that I am] sick, I, Doña María Dominga.
+My son-in-law Tomas Francisco will not require or search for me again. But I have to give him, everything he did and corresponded to him. But if he wanted to [give and distribute] to my grandchildren and pay what he says and orders in the will. It really won't be lost, and these are the ones who will testify. My witnesses and attorneys say here that they do not know the document.
+Signing with the cross: Hilario de Jesús, Juan Benito Vazquez, Pedro Cipriano Gutierrez, Gabrielito Teniente, Martín Señor Merino, Marcos Domingo Alguacil Mayor, Andres Diego Xochitlacatzin.
+NonBrado SSone Notary
+Sch Soze
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+
+	<div class='container'>
+	     <div class="row">
+		      
+			<div class="col-md-12">
+
+
+				 {{ content }}
+
+
+			</div>
+		</div> <!-- /.row -->
+	</div> <!-- /.container -->
+
+
+
+	  <div class="container">
+		    <div class="row">
+			<div class="col-med-12" style='margin: 3% 0'>
+	  
+
+			  <h2>Documents</h2>
+			      <div class="gallery">
+			      
+				{% for manifest in site.data.manifests %}
+					<div class="card" style="width: 18rem;">
+					  <div class='card-img' style='height:200px;background-image:url({{ manifest.thumbnail }});background-position: center;background-size: cover;'></div>
+					  <div class="card-body">
+					    <h5 class="card-title">{{manifest.name}}</h5>
+					    <p class="card-text" style='font-size:0.8em;'>{{manifest.description}}</p>
+					    <a href="item.html?d={{manifest.ID}}" class="btn btn-primary">Go somewhere</a>
+					  </div>
+					</div>
+				{% endfor %}
+	 
+
+				  
+			     </div>
+	 
+
+
+			</div>
+		    </div>
+	  </div>
+	 
+
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+

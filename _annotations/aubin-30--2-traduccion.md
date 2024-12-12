@@ -1,0 +1,7 @@
+---
+ident: 'aubin'
+title: 'Traducción'
+pagenum: 30
+---
+Luego los Mexicas se trasladaron a Tecpayocan.
+En Tecpayocan cumplieron 4 años de permanecer ahí, en ese mismo lugar, los Mexicas fueron cercados en la guerra, y en esta murieron Tecpatzin,  Huitzilihuitzin y Tetepantzin. Entonces, sobre ellos llegó de nueva cuenta el tiempo del atado de años en la cima de Tecpayo. 

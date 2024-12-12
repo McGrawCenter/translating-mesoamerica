@@ -1,0 +1,41 @@
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-md-8">
+       &copy; {{ site.time | date: '%Y' }} Trustees of <a href="https://www.princeton.edu">Princeton University</a> and Nadia Cervantes Pérez<br />
+       <p style="font-size:0.8em;margin-top:0px;"><a href="/content/copyright-infringement" data-drupal-link-system-path="node/20201">Copyright Infringement</a> | <a href="/privacy-notice" data-drupal-link-system-path="node/174186">Privacy Notice</a></p>
+       
+      </div>
+      <div class="col-md-4">
+       <a href="https://www.princeton.edu"><img src="{{site.baseurl}}/assets/images/PU1line.png" width="100%"/></a>
+       
+      </div>    
+
+
+    </div>
+  </div>
+</footer>
+
+
+  <script src="{{site.baseurl}}/assets/js/scripts.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('#myTabs a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+    });
+  });
+</script>
+
+
+</body>
+
+</html>

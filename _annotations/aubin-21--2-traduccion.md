@@ -1,0 +1,7 @@
+---
+ident: 'aubin'
+title: 'Traducción'
+pagenum: 21
+---
+En el año 4 pedernal los Mexicas se trasladaron a Apazco.
+En el año 2 caña, sobre ellos llegó de nueva cuenta el tiempo del atado de años en Apazco, en la cima de Huitzcotl, que fue donde cayó el tizón.

@@ -1,0 +1,20 @@
+manifest_identifier,Title,Location,Color,Link,Latitude,Longitude
+breve,Breve Tratado de Doctrina Christiana...,Taxco,#df0119,,18.5565468,-99.6051206
+breve,Breve Tratado de Doctrina Christiana...,Convento de San Bernardino de Siena,#df0119,,18.5582849,-99.6040972
+choral,"Miscelánea de música coral, 1635",San Juan Ixcoy,#3d3d3d,,15.5998658,-91.4470937
+choral,"Miscelánea de música coral, 1635",San Miguel Acatan,#3d3d3d,,15.7043595,-91.5996085
+hacienda,"Registros de la Hacienda de Santa Bárbara (Tlaxcala, México), 1553-1802",Hacienda Santa Barbara,#a53636,,19.3349076,-98.0114291
+tlaxcala,"Documentos legales de Tlaxcala, 1694-1843",San Andrés Ahuashuatepec,#d7b58a,,19.3790492,-98.1061629
+tlaxcala,"Documentos legales de Tlaxcala, 1694-1843",Tzompantepec,#d7b58a,,19.3736709,-98.0929034
+lienzo,"Lienzo de San Pedro Ixcatlan, [entre 1775 y 1850]",San Pedro Ixcatlán,#649d9f,,18.1443767,-96.5101716
+aubin,"Códice Aubin: manuscrito, [entre 1775 y 1825]",Mexico City,#f28258,,19.4326077,-99.133208
+land-transfers,"Transferencias de tierras indígenas mexicanas, 1602-1849",Mexico City,#106a10,,19.4327076,-99.134207
+tecamachalco,"Documentos legales de Tecamachalco, [1557-1594]",Tecamachalco,#f28e10,,18.8819104,-97.7327256
+tula1,"Documentos de Tula, 1571-1617",Tula,#91b991,,20.0535516,-99.3395636
+mapa,Mapa azteca con glifos,Cuautlancingo,#51478d,,19.1044894,-98.2765151
+tula2,"Documentos de Tula, 1605-1630",Tula,#2b92f2,,20.41662,-99.22939
+traducese,"Traducese al Romance castellano, la Relación Mercuriana",Amecameca,#d4a42d,,19.1223754,-98.7667481
+sermons,"Sermones en náhuatl y la obra ""Miércoles Santo""",Colegio de Santa Cruz de Tlatelolco,#aec0d8,,19.450755,-99.1366801
+sermons,"Sermones en náhuatl y la obra ""Miércoles Santo""",San Pedro y San Pablo,#aec0d8,,19.1632111,-99.6169114
+aztec,Mapa azteca con glifos,Tula,#ff83f3,aztec.html,20.4166252,-99.229398
+aztec,Mapa azteca con glifos,Mexico City,#ff83f3,aztec.html,19.4326077,-99.133208

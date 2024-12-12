@@ -1,0 +1,13 @@
+---
+ident: 'aubin'
+title: 'Traducción'
+pagenum: 109
+---
+Año de 1564.
+Hoy martes a 30 días del mes de febrero, finalmente se enjabelgó la iglesia.
+El lunes 29 mayo, abrí zanjas para mi casa que se encuentra por la imagen.
+Jueves 13 de julio se decretó que un peso y 3 monedas se requerirán en la casa. Al terminar el decreto apedrearon al gobernador y un alcalde cuando el (conde) fue a ver a los mexicas, algunos fueron vendidos por 5 años y otros por 2 años para ser sirvientes.
+ El lunes 31 de julio en Santo Domingo fue enterrado el Visorrey don Luis Velazco.
+El miércoles 16 de agosto murieron los que eran (condes). Ahí fueron los nuevos (condes). En este año se acabaron e inauguraron las tiendas de diferentes españoles.
+El miércoles 13 de septiembre, el capitán Miguel López comenzó a encerrar quienes fueron a China (al regresar).
+El lunes 25 de diciembre se colocó un tablón en San José Manse.

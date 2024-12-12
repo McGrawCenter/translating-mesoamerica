@@ -1,0 +1,14 @@
+---
+ident: 'aubin'
+title: 'Traducción'
+pagenum: 95
+---
+Año de 1541.
+Aquí conquistaron a los Xochipiltecas.
+Año de 1542.
+Aquí apareció el cuarto moneda plana y llana. Cuando llegaron a la tierra nueva los tenochcas y cuando entraron los Xochipillancas.
+Año de 1543.
+Aquí se levantó el polvo cuando hubo hambruna. Cuando gritó el Atempaneca Bartolome Teopan y cuando apareció la cueva de Tetzicapan.
+Año de 1544.
+Año de 1545.
+Aquí apareció una enfermedad que ocasionó sangrado de nariz, se propagó por un año cuando fue erigido el tianguis de San Hipólito.

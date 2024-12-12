@@ -1,0 +1,190 @@
+[
+    { 
+        "slug":"christiana",
+        "zoom": "18.5565468,-99.6051206,15",
+        "color": "#df0119" ,
+        "layer": "Doctrina Christiana",
+        "locations": [
+            {
+                "title": "Taxco",
+                "coordinates": "18.5565468,-99.6051206"
+            },
+            {
+                "title": "Convento de San Bernardino de Siena",
+                "coordinates": "18.5582849,-99.6040972"
+            }
+        ]
+    },
+    { 
+        "slug":"choral",
+        "zoom": "15.65615132346892,-91.52887980671902,8",
+        "color": "#3d3d3d" ,
+        "layer": "Choral Music Miscellany, 1635",
+        "locations": [
+            {
+                "title": "San Juan Ixcoy",
+                "coordinates": "15.5998658,-91.4470937"
+            },
+            {
+                "title": "San Miguel Acatan",
+                "coordinates": "15.7043595,-91.5996085"
+            }
+        ]
+    },
+    { 
+        "slug":"hacienda",
+        "zoom": "19.3349076,-98.0114291,10",
+        "color":"#a53636" ,
+        "layer": "Hacienda de Santa Bárbara (Tlaxcala, Mexico) records, 1553-1802",
+        "locations": [
+            {
+                "title": "Hacienda Santa Barbara",
+                "coordinates": "19.3349076,-98.0114291"
+            }
+        ]
+    },
+    { 
+        "slug":"tlaxcala",
+        "zoom": "19.3758918052,-98.09636855495395,15",
+        "color":"#d7b58a" ,
+        "layer": "Tlaxcala legal documents, 1694-1843",
+        "locations": [
+            {
+                "title": "San Andrés Ahuashuatepec",
+                "coordinates": "19.3790492,-98.1061629"
+            },
+            {
+                "title": "Tzompantepec",
+                "coordinates": "19.3736709,-98.0929034"
+            }
+        ]
+    },
+    { 
+          "slug":"lienzo",
+          "zoom": "18.1443767,-96.5101716,10",
+        "color":"#649d9f" ,
+        "layer": "Lienzo de San Pedro Ixcatlan, [between 1775 and 1850].",
+        "locations": [
+            {
+                "title": "San Pedro Ixcatlán",
+                "coordinates": "18.1443767,-96.5101716"
+            }
+        ]
+    },
+    { 
+          "slug":"aubin",
+          "zoom": "19.4126077,-99.133208,10",
+        "color":"#f28258" ,
+        "layer": "Codex Aubin : manuscript, [between 1775 and 1825]",
+        "locations": [
+            {
+                "title": "Mexico City",
+                "coordinates": "19.4126077,-99.133208"
+            }
+        ]
+    },
+    { 
+          "slug":"land-transfers",
+          "zoom": "19.4326077,-99.133208,14",
+        "color":"#106a10" ,
+        "layer": "Mexican Indian land transfers, 1602-1849",
+        "locations": [
+            {
+                "title": "Mexico City",
+                "coordinates": "19.4326077,-99.133208"
+            }
+        ]
+    },
+    { 
+          "slug":"tecamachalco",
+          "zoom": "18.8819104,-97.7327256,10",
+        "color":"#f28e10" ,
+        "layer": "Tecamachalco legal documents, [1557-1594]",
+        "locations": [
+            {
+                "title": "Tecamachalco",
+                "coordinates": "18.8819104,-97.7327256"
+            }
+        ]
+    },
+    { 
+          "slug":"tula1",
+          "zoom": "20.0535516,-99.3395636,10",
+        "color":"#91b991" ,
+        "layer": "Tula documents, 1571-1617",
+        "locations": [
+            {
+                "title": "Tula",
+                "coordinates": "20.0535516,-99.3395636"
+            }
+        ]
+    },
+    { 
+          "slug":"mapa",
+          "zoom": "19.1044894,-98.2765151,10",
+        "color":"#51478d" ,
+        "layer": "Mapa de Cuauhtlantzinco : manuscript, [1855]",
+        "locations": [
+            {
+                "title": "Cuautlancingo",
+                "coordinates": "19.1044894,-98.2765151"
+            }
+        ]
+    },
+    { 
+          "slug":"tula2",
+          "zoom": "20.41662,-99.22939,15",
+        "color":"#2b92f2" ,
+        "layer": "Tula Documents 1605-1630",
+        "locations": [
+            {
+                "title": "Tula",
+                "coordinates": "20.41662,-99.22939"
+            }
+        ]
+    },
+    { 
+          "slug":"traducese",
+          "zoom":"19.1223754,-98.7667481,10",
+        "color":"#d4a42d" ,
+        "layer": "Traducese al Romance castellano, la Relación Mercuriana",
+        "locations": [
+            {
+                "title": "Amecameca",
+                "coordinates": "19.1223754,-98.7667481"
+            }
+        ]
+    },
+    { 
+          "slug":"sermons",
+          "zoom": "19.280701533362933,-99.30600686244433,10",
+        "color":"#aec0d8" ,
+        "layer": "Nahuatl Sermons and the Play \"Holy Wednesday\"",
+        "locations": [
+            {
+                "title": "Colegio de Santa Cruz de Tlatelolco",
+                "coordinates": "19.450755,-99.1366801"
+            },
+            {
+                "title": "San Pedro y San Pablo",
+                "coordinates": "19.1632111,-99.6169114"
+            }
+        ]
+    },
+    { 
+          "slug":"aztec",
+          "zoom": "20.4166252,-99.229398,10",
+        "color":"#ff83f3" ,
+        "layer": "Aztec map with glyphs.",
+        "locations": [
+            {
+                "title": "Tula",
+                "coordinates": "20.4166252,-99.229398"
+            },
+            {
+                "title": "Mexico City",
+                "coordinates": "19.4326077,-99.133208"
+            }
+        ]
+    }    
+]

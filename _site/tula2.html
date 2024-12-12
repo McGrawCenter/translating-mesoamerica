@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en"><!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>
+    Translating Mesoamerica
+  </title>
+  <meta name="description" content="Nahuatl documents from the Princeton University Library collection">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>  
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@iiif/vault@latest/dist/index.umd.js?ver=6.6.1" id="canvaspanel-js"></script>
+  
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+  <!--<script src="/translating-mesoamerica/assets/js/mirador.min.js "></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/mirador@3.3.0/dist/mirador.min.js"></script>
+  
+  <script src="/translating-mesoamerica/assets/openseadragon/openseadragon.min.js"></script>
+     
+          
+  <!--<script src="/translating-mesoamerica/assets/js/tify/tify.js"></script>-->
+  <link rel="stylesheet" href="/translating-mesoamerica/assets/css/main.css">
+  <link rel="stylesheet" href="/translating-mesoamerica/assets/css/style.css">
+  <!--<link rel="stylesheet" href="/translating-mesoamerica/assets/js/tify/tify.css">-->
+</head>
+<body>
+<body>
+  
+    
+    
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/translating-mesoamerica/index.html">Translating Mesoamerica </a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/translating-mesoamerica/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/translating-mesoamerica/map.html">Map</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="/translating-mesoamerica/alphabet.html">Alphabet</a>
+        </li>                
+        <li class="nav-item">
+          <a class="nav-link" href="/translating-mesoamerica/about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/translating-mesoamerica/index.html" style="display: inline;padding-right: 0px;">English</a> | <a class="nav-link" href="/translating-mesoamerica/es/index.html" style="display: inline;padding-left: 0px;">Español</a>
+        </li>          
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+      
+  <!-- Page Header  62 42 42 or  92, 77, 66 or 100, 0, 7-->
+
+<!--
+<header class="masthead narrow" style="padding: 50px 0 0px 0;background: linear-gradient(to bottom, rgba(23, 20, 20, 0.8) 0%, rgba(23, 20, 20, 0.5) 100%), url(/translating-mesoamerica/assets/images/bg-masthead.jpg);">-->
+
+<header class="masthead narrow" style="padding: 50px 0 0px 0;background:linear-gradient(to top, rgba(123, 120, 120, 0.8) 0%, rgba(10, 10, 10, 0.5) 100%), url(/translating-mesoamerica/assets/images/banner4.jpg);background-size:cover;">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1 class="site-title"><a href="/translating-mesoamerica/index.html">Translating Mesoamerica</a></h1>
+            
+            <span class="subheading">Transcriptions and translations of the Mesoamerican collection at Princeton University</span>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+
+   
+<div class="container">
+  
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mx-auto">
+
+		  <h2 style="margin:0 0 1em 0">Tula documents, 1605-1630</h2>
+		  
+      </div>
+    </div> <!-- /.row -->
+    
+
+     <div class="row">
+	      
+		<div class="col-md-8">
+			<div id="mirador2" style="position:relative;width:100%;height:600px;"></div>
+		</div>
+		
+		<div class="metadata col-md-4">
+
+				  <h2 class="btn btn-primary">Metadata</h2>
+				  <p><label for="doc_title">Title:</label> <span id="doc_title">Tula documents, 1605-1630</span></p>
+				  <p><label for="doc_description">Description:</label> <span id="doc_description">Legal statements, wills, and deeds in Nahuatl and Spanish. Some of the Spanish is a translation of the Nahuatl.</span></p>
+				  <p><label for="doc_source">Source:</label> <span id="doc_source"><a href="https://dpul.princeton.edu/mesoamerican/catalog/dct722hm846" target="_blank">Princeton University Library</a></span></p>
+
+	       </div>
+      </div> <!-- /.row -->	
+      
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mx-auto">
+      
+				  <div class="icon-bar">
+				  <a href="#"><img src="/translating-mesoamerica/assets/images/filetype-pdf.svg" class='icon-lg'/></a>
+				  <a href="#"><img src="/translating-mesoamerica/assets/images/iiif.svg" class='icon-lg'/></a>
+				  </div>      
+
+		  
+
+		  
+      </div>
+    </div> <!-- /.row -->          
+      
+</div>
+
+
+<div class="container" style="margin-top:3em;">
+
+
+
+
+
+
+
+
+
+
+  	  <div class="row">
+      	     <div class="col-lg-12 col-md-12 mx-auto" style="margin-top:1.5em;margin-bottom:0em;">
+               <h3>Page 5</h3>	
+
+  	    </div>
+	 </div> <!-- /.row -->  
+
+
+  	  <div class="row">
+  	  
+  	  
+      	     <div class="col-lg-6 col-md-6 mx-auto">
+      	        <div id="osd-viewer-page-5" data-pagenum="5" class="osd" style="width:100%; height:500px;background:#EEE;margin-top:0.5em;"></div>
+      	     </div>
+  	  
+  	  
+      	     <div class="col-lg-6 col-md-6 mx-auto" style="margin-top:0.5em;margin-bottom:0em;">
+      	     
+ 	
+	
+
+
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">  	     
+
+
+
+   <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="transcription-5-tab" data-bs-toggle="tab" data-bs-target="#transcription-5" type="button" role="tab" aria-controls="transcription" aria-selected="true">Transcription</button>
+   </li>
+
+
+</ul> 
+
+
+<div class="tab-content" id="myTabContent">
+
+
+
+   <div class="tab-pane show active fade" id="transcription-5" role="tabpanel" aria-labelledby="transcription-tab" style="margin-top:1em;"><ol>
+  <li>Y ynica ynitocatzi ỹ dios tetatzῖ dios tepiltzῖ jesux~po. dios espũ. santo.</li>
+  <li>nicpeualtia notestamẽnto. ỹneuatl nidonã barbara des ͭ ª. mª. nicãtul</li>
+  <li>lan. nochã. yzcatqui notzõquizcatla neqliz. ynaqʹque quitaz</li>
+  <li>que quipoazque Cayahuatly.</li>
+  <li>Y snicҫẽtla mãtl ỹnocal ỹqʹquetztia. ỹnonamiccatª. caueltoҫia</li>
+  <li>huiz tonecocol toneyxcahuil ynicmochiuh. Auh noyollo cacopaỹ</li>
+  <li>nicmacatiuh ỹ donã Juana. ynimach.nonamiccatª ayacne</li>
+  <li>chcuitlauiltia. auh ynicnicmacatiuh. ynincalli. ayac qʹnama_</li>
+  <li>quiltiz. Auh ỹ nohuezta motla coxelloz. ynihuicpa Anselmo garª</li>
+  <li>y techpouhqui ỹ donã Juana. auh ynicuicpa tria. teopã pouhqui</li>
+  <li>matlactlomey noeces quauite. yuiuical ỹ xocomecatl yuãlpauas</li>
+  <li>yuitl. ỹtleỹ nõca mochiuaz teopa qʹcalaquitiazque. ynalban</li>
+  <li>ҫeas. uelqui mocuitlacuizque. temilcoma ma ni noeҫes quauitl chi</li>
+  <li>cuey tepitotõ. monamacaz_</li>
+  <li>Y yzcatqʹnotlatqui. nicnopialia XXiiİ pºs. nanimã ytechpoui. missa</li>
+  <li>ycnechtlanitiaque ynalbaҫes. hueueymisa cuicoz_</li>
+  <li>Y ỹcueyte yetete yuãhuipilli noyetetl tomihuipilli ontetl. yetetl. tla</li>
+  <li>pochiuh cayotle nauh ҫote ỹҫãҫecoca. auh noõca ynicpatetl. ynic</li>
+  <li>mochiuaz. chiuc nauhtete ycoatete potzauac. ycpatematlacma</li>
+  <li>lacatl ҫeҫotl tlamachtilmath. yniquitechnicauhtiuh. ỹdonã juª_</li>
+  <li>yuã donã Junina yuã donã mª hernãdez. yeuãtῖ tlanamacazq~.</li>
+  <li>Y ontetlca Jath. monamacaz ynipatiuh yez. ytechpouhqui ỹnanimã</li>
+  <li>misa. ycnechtla nizque yeҫotl tilmatl monamacaz ya mãq~chi</li>
+  <li>cotetl. tlatlapalycpatete. macuilmecatl. tochmitl. matlach ycpatetl</li>
+  <li>nauhtete ychicpatetl. namecatl q~pachicpatl. matlactlonauitomi</li>
+  <li>ycpatetl ҫeanoba ychcatomitl. ҫẽtla mãth. tlapochenaloni casas.</li>
+  <li>chincõtetl xicãlli yetete tacatotõ ҫelimeda monamacaz chiq~ҫetete</li>
+  <li>chalchiuite yuã ҫematzatzazth.</li>
+  <li>chicueteme quaq~hueque. monamacazq~. yuã rrexa nauhtetem[1]</li>
+  <li>macaz ynipatiuh misa ycmiquic nopiluiz. ҫecauallo quipia pabl[2]</li>
+  <li>rotl[3] monamacaz chico mepºs ypatiuh misa ycniqc~nopiluiz. nas[4]</li>
+  <li>pºs. quimotlaneui donã Elena tlatlauililpã. mitlaniliz misa yc</li>
+  <li>niqʹcnopiluiz</li>
+  <li>pacuilpãtl. yeҫotitla onoc. õpatl. teopa pouhqui mi[5]</li>
+</ol>
+</div>
+
+  
+		
+</div>
+
+
+
+  	    </div>
+	 </div> <!-- /.row --> 
+
+
+  	  <div class="row">
+      	     <div class="col-lg-12 col-md-12 mx-auto" style="margin-top:1.5em;margin-bottom:0em;">
+               <h3>Page 6</h3>	
+
+  	    </div>
+	 </div> <!-- /.row -->  
+
+
+  	  <div class="row">
+  	  
+  	  
+      	     <div class="col-lg-6 col-md-6 mx-auto">
+      	        <div id="osd-viewer-page-6" data-pagenum="6" class="osd" style="width:100%; height:500px;background:#EEE;margin-top:0.5em;"></div>
+      	     </div>
+  	  
+  	  
+      	     <div class="col-lg-6 col-md-6 mx-auto" style="margin-top:0.5em;margin-bottom:0em;">
+      	     
+ 	
+	
+
+
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">  	     
+
+
+
+   <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="transcription-6-tab" data-bs-toggle="tab" data-bs-target="#transcription-6" type="button" role="tab" aria-controls="transcription" aria-selected="true">Transcription</button>
+   </li>
+
+
+</ul> 
+
+
+<div class="tab-content" id="myTabContent">
+
+
+
+   <div class="tab-pane show active fade" id="transcription-6" role="tabpanel" aria-labelledby="transcription-tab" style="margin-top:1em;"><ol>
+  <li>quiz yniquac abiẽdo anoҫ q~resma. õcaquaҫaz yneuc tlat[6]</li>
+  <li>nilli teopãcalactiaz. auh ỹnepãth: notechpohui. nicpialtitiuh.,</li>
+  <li>poctli: q~mocuitlauiz. caonicnauati cauel mixco yan nomeu</li>
+  <li>achanicnopialia monamacaz. ynipatiuh misa ycnicqʹcnop[7]</li>
+  <li>Y ỹpiltzĩth jesus. teopãcalatitica. yctlayaualozq~. ỹteopixq~.yniq~c</li>
+  <li>tiuhmiscotzadia ҫeҫemetztica ỹnicãcamesa. yuãҫecruciticx</li>
+  <li>yuã yzqʹtete. tlayxiptlayotl. uelnicãmopiaz. ayac. cauilqʹxt[8]</li>
+  <li>nĩnotzõquizcatlanequiliz. uelnoyollo cacopa. ynoniq~to ayo</li>
+  <li>nechcuitlauiltia Auh ỹnotestamento achto onictlalica. nicpolo</li>
+  <li>atlepãpohui. yuã ỹtleỹ nicã oquicuiloco. ỹtlatoani atto</li>
+  <li>yoz. nonicpoloa. atley pãpohui. auh yeuath ỹuel notestam[9]</li>
+  <li>ỹuelnoyollocacopa. onictlali. oniquito. ayac onechcuitlacuill</li>
+  <li>mispãtestigosme. don miguel garª. goberª. angel mogaza.</li>
+  <li>decõteara fiscal yuãҫiuapipiltin donã Justina. donã mª h</li>
+  <li>dez. donã Juana. yneschaza. madalena.</li>
+  <li>Y onemi ytoca Juachinmẽdez. ycalpãpiltzĩ ỹnonamic. catª ah[10]</li>
+  <li>qʹtlatzocui liz. ynixqʹchnicã onicteneuh ynotlatqui. catoneyxcaui</li>
+  <li>namic.catª. auhỹtlaytla qʹnequi mayauh ҫimapã. acotehueuec C</li>
+  <li>atonco. machimiqui. ca oquichth cayac qʹtlacaualtiz. Auh ca</li>
+  <li>tlalli ynonictenauh. ynipã notestamẽto. auh ynĩ ỹnotzõqʹzca</li>
+  <li>neqʹliz ymac nicauhtiuh ỹdon miguel garª. goberºʳ yeuatl q[11]</li>
+  <li>mocuitlauiz quimotiliz. y nixqʹch onicteneuh. uẽtzinth axa</li>
+  <li>martes. omicuilo. yeyc İx ylhuitl ỹmetzth agosto. desbosaºy</li>
+  <li>yneuatl ni diego desantonio Escriuano. one chtlatlauhti. y</li>
+  <li>cocoa donã barbara. yniconitlacuilo nicã yenino frimatia n.[12]</li>
+  <li>omochiuh nahuatl miguel garª governador diego desantonio.</li>
+  <li>Y catepã. oquito. yuã cõnequi noyollo ynipaleuiloca namimã. ҫetetl</li>
+  <li>yuã misa ynicmotocaz nonacayo. auh ỹtlaca moueliliz ynipãc</li>
+  <li>huitl. may moztlayoc mochiuaz. Vipºs. uẽtzith yuã ҫehanegay.</li>
+  <li>yuã nauitl momacazque cuicanime. ynicnechana quicui yniq</li>
+  <li>oaҫicchiuc nauiluitl. nopãmitoz hõrras. auh ynicniqʹcnopiluiz ỹy</li>
+  <li>tinqʹmati ynalbaҫeas quicuilozque. quimachiyolizq~. ytleỹpopol[13]</li>
+  <li>ytechquiҫaz ynicuiliuhtica tominey nicauhtiuh</li>
+  <li>Y yuã nicneqʹ quezquipºs. ytechpouiz cofradia</li>
+  <li>Y albaҫeay yeuãtimi yeniqʹmixq~za ỹqʹmocuitlauizque. notzõquizcate[14]</li>
+  <li>nequiliz. don bacaz demagos. anselmo garª. auh ỹtla momi</li>
+  <li>q~ocҫetlacatl quixquetzazque ỹqʹmocuitlauiz yninotzõqʹz[15]</li>
+  <li>quiliz. tlamelauhtiaz. amopoliuiz. nixpã omochiuh mic[16]</li>
+  <li>governador. diego desantonio escriuano.</li>
+</ol>
+</div>
+
+  
+		
+</div>
+
+
+
+  	    </div>
+	 </div> <!-- /.row --> 
+
+
+  	  <div class="row">
+      	     <div class="col-lg-12 col-md-12 mx-auto" style="margin-top:1.5em;margin-bottom:0em;">
+               <h3>Page 21</h3>	
+
+  	    </div>
+	 </div> <!-- /.row -->  
+
+
+  	  <div class="row">
+  	  
+  	  
+      	     <div class="col-lg-6 col-md-6 mx-auto">
+      	        <div id="osd-viewer-page-21" data-pagenum="21" class="osd" style="width:100%; height:500px;background:#EEE;margin-top:0.5em;"></div>
+      	     </div>
+  	  
+  	  
+      	     <div class="col-lg-6 col-md-6 mx-auto" style="margin-top:0.5em;margin-bottom:0em;">
+      	     
+ 	
+	
+
+
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">  	     
+
+
+
+   <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="transcription-21-tab" data-bs-toggle="tab" data-bs-target="#transcription-21" type="button" role="tab" aria-controls="transcription" aria-selected="true">Transcription</button>
+   </li>
+
+
+</ul> 
+
+
+<div class="tab-content" id="myTabContent">
+
+
+
+   <div class="tab-pane show active fade" id="transcription-21" role="tabpanel" aria-labelledby="transcription-tab" style="margin-top:1em;"><ol>
+  <li>V ynica ytocatzin yntetatzin. yhuã Espũsancho. nicpehualtia</li>
+  <li>notestamento, maquimatico ynixquichquitazq~. yninamatl Caỹneuatl</li>
+  <li>nitoribio feliҫiano. nican nochan s ͭ Jose phitullan. ytech nipoui ynperr o_</li>
+  <li>chia ytoca s ͭ ªmª Concepcio. nicchiua notestamento. auh moҫyui ynmoco_</li>
+  <li>coua ynnonacayo. yeҫe ynnoyollo. ỹnocializ yAno[17]tlalnamiquiliz. ynnotlaca</li>
+  <li>qʹliz Aquenciҫanpactica. aucnicchixtica. ynimiquiztli ycayae celizpãpa</li>
+  <li>yeua ynayac uelquitlalcanon. ycnictlalia ynnotestamº ỹcatlatzonco_</li>
+  <li>ynҫatlazactã- notlaneqʹliz ynicmoelipa mopiaz ynicayac qʹlitlacoz. cayeua</li>
+  <li>tli yzcatqʹu³ yenocopehualtia__<strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><em>__</em></li>
+  <li>Y huelachtoyehuatl ỹnanima ymantzinco nocolatia ynttº.dios Caoquimo_</li>
+  <li>chiuili, yhuã nicnotlatlauhtilia. ——-[18]nech motlaocoliliz nechmopapolhui</li>
+  <li>liz ỹnotlatlacol ynicnechmouiqʹliz ynichantzi—[19]co ynilhui catlitic. ynihquac</li>
+  <li>nanima Oquitlazui nonacayo Auh ynonacayo[20] ytechnicpoua yntlalli.</li>
+  <li>caytechqʹzcatlalli Caҫoquitl yhuã ticnequi. o—–intilmatli ycmoquimiloz</li>
+  <li>ymcmotocas. yhuãnicnequi ompamitocaz yntoni opan. s ͭ . Joseph tullan.</li>
+  <li>calitic nitlacnopilhuiz-nechmomachiyoliliz y—-[21] guarªᶯ ynnotlatatac. yhuã</li>
+  <li>nicnequi ynipanpa nanima ypaleuiloanlo niCa amo Anpaue cauaz purgatorio ҫen_</li>
+  <li>tetl vigilia. yhuaҫencetl missa ynic moncaz nonacayo auhyntlacamouelitiz-</li>
+  <li>yhquac maquinimoztlayoc. auhanoҫayhuac. uelqui monequiltiz ỹpᵉ. guardia.</li>
+  <li>auhnopanpaquiCauatiui uentzintli ynonipa teopan. 6. carneros yhua:ma</li>
+  <li>Cuilquauacali. rigo. yhuã matlactli quauacalli. mexicotlaolli. Aҫoytla ycmocouaz</li>
+  <li>teopixqueyntlaqualtzin. yhuaҫencanicnotlatlaulitilia. ỹnotlaҫotatzin pª. guarªᶯ-</li>
+  <li>fray Clemente. de la cruz. ynicnechmotlaocoliliz centetl missa Cauelimactzin</li>
+  <li>comfio Cauhtiuh ynicnachmopaleuilizyxpantzincottº dios a.<strong>__</strong>_____</li>
+  <li>Y Auhyzcatqui ỹnoneyxcanillaxca ỹnixcoyãnotlatqui ỹnocalnicnepãtlaxc_</li>
+  <li>louayxtlapal Oncan tlantica ynoncãniuctztoc. niquĩmacatiuh ynomen</li>
+  <li>tinoxuiuan pipiltotontin magdalena yhuã Juana niquinmaycatitiuh-</li>
+  <li>ueloncãyezque Oncãqʹpachotiazque yninnantzin mªmag ͩ<strong>__</strong><em>__</em></li>
+  <li>Y huã oncetl mitli onpamani yniztactzaquella. ynicoҫan anpamani yntepepã</li>
+  <li>ayamomonmia auinaxca Onocҫintli. ynmochiuhtocnimãqʹluazque_______</li>
+  <li>Y huã atonco manimilli Ontetl. ynicҫentetl tepepã xilote peca Otli:ycencoqui</li>
+  <li>ҫeyniconeatl ҫanoyyuhtlatzintlan maniҫacamolli yntechpoui. ỹnoxhuiuã</li>
+  <li>
+    <p>mag ͩ. yhuã Juana. qʹcuizque ynaxcã oncanonoc ҫintli quipixuilizque u_____</p>
+  </li>
+  <li>Y Auh ỹteueuec manimilli. tecuezcomac auhynҫimapã tepepãmaniquaxoch</li>
+  <li>co PDiago yhuã altepetl yyaxca quayaualco yhuã tlalcocomocayã yhuãteo</li>
+  <li>pã caltepotzco manino solar tepãyotica yhuãtlatzintla titoquaxochnamiqʹỹ pº_</li>
+  <li>garª. fiscal yhuãnamilli. ynmatlacquauitl yniyaxcacatca Rey. ynizquitetli</li>
+  <li>ỹmilli ynomicteneuh, mochiniquin macatiuh ynomentinox huiuã mag ͩ. yuã</li>
+  <li>Juana a <strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong></li>
+  <li>Auhỹnoxuiuã. mag ͩ. yhuã Juana. matlactecpanti niquĩmacatiuh ynich</li>
+  <li>came. Oncãneliz yntleyyntactimomequiz y__<strong>__</strong><strong>__</strong><strong>__</strong><em>__</em></li>
+  <li>Y  yhuãniquĩmacatiuh Onpouallon matlacllomey chalchihuitl niqʹnmaca_</li>
+  <li>tiah ỹ noxhuiuã mag ͩ. yhua Juana _____</li>
+  <li>Y Auh telarynicmochiua tomiyayatl niquĩmacatiuh ỹnoxhuiuã mag ͩ. yhuã Juª</li>
+  <li>Y yhuan ҫentetl yhuitilmatli quimoquentizq~ ỹnoxhuiuã mag ͩ. yhuã Juª.<em>__</em></li>
+  <li>Y yhuãҫentetl tlapechtli Oncan cochizque ynpipiltzitintin <strong>__</strong></li>
+  <li>Y Auhynicmochiuaz fonrras ynitiquac oacicchi Cueylhuiyoc ynanoҫp ocq~squ[22]</li>
+  <li>ylhuitica niquicnopilhuiz ocҫentetl missa nopanmihtoz ynipanpa nanim[23]</li>
+  <li>nicãnicteneua ҫentecpanti Carneros memopepe nasq~ yehuãtin ỹquaquall[24]</li>
+  <li>ytechtzinco momequiz ynteopixq~. yhuã ytechnicauhtiuh ỹnona mic. y[25]</li>
+</ol>
+</div>
+
+  
+		
+</div>
+
+
+
+  	    </div>
+	 </div> <!-- /.row --> 
+
+
+  	  <div class="row">
+      	     <div class="col-lg-12 col-md-12 mx-auto" style="margin-top:1.5em;margin-bottom:0em;">
+               <h3>Page 22</h3>	
+
+  	    </div>
+	 </div> <!-- /.row -->  
+
+
+  	  <div class="row">
+  	  
+  	  
+      	     <div class="col-lg-6 col-md-6 mx-auto">
+      	        <div id="osd-viewer-page-22" data-pagenum="22" class="osd" style="width:100%; height:500px;background:#EEE;margin-top:0.5em;"></div>
+      	     </div>
+  	  
+  	  
+      	     <div class="col-lg-6 col-md-6 mx-auto" style="margin-top:0.5em;margin-bottom:0em;">
+      	     
+ 	
+	
+
+
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">  	     
+
+
+
+   <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="transcription-22-tab" data-bs-toggle="tab" data-bs-target="#transcription-22" type="button" role="tab" aria-controls="transcription" aria-selected="true">Transcription</button>
+   </li>
+
+
+</ul> 
+
+
+<div class="tab-content" id="myTabContent">
+
+
+
+   <div class="tab-pane show active fade" id="transcription-22" role="tabpanel" aria-labelledby="transcription-tab" style="margin-top:1em;"><ol>
+  <li>ocquexquich nopanpa quechua ycaniyollo tlamac nicnechgale huiz._____</li>
+  <li>Y yhuã nicnequi ynitiquac Onmic neãnochã nechanaqui ỹanicanime ỹhuã yntech nic</li>
+  <li>tiuh. 3 Carneros. yhuã Cuicanime macozq~nocilma ycnopãpa qʹniotlatlauhtili[26]</li>
+  <li>lu— [27]hynipanpa Costiadia Oncã yãduica ninopoua yhuã nomanac. Ana desͭª Joseph. yhuan</li>
+  <li>tramõ manic mag ͩ ª yhuã noxhuiuã mag ͩ  yhuã Juana mocaultech ome pesas fomines-</li>
+  <li>Y yhuã nicnequi S nottines. onicnoquintiaya yeyҫoltic mama—-[28]q~ye —[29]cãtin ynaltepec</li>
+  <li>huã hueuetque <strong>__</strong><strong>__</strong>__</li>
+  <li>Y yhuã notauã tlacpactlaca Oniquĩmacac ypºs yhuã mºg. tº. -[30] qʹchichiuazq~ yʹnoceloxio[31]</li>
+  <li>moqʹlcauazque.<strong>__</strong><strong>__</strong><strong>__</strong>_</li>
+  <li>Y Auh nocãnictenehua ynniqʹnma Catiuh. nonamic. yhuãnochpoch. Achtopa ỹnoca</li>
+  <li>tlacotl ynyxtlapanca. yniquinmacenich noxhuiuã, quiyauacpan autiỹcalitic</li>
+  <li>uan ti—[32]qʹ ỹnonanue[33] Ana des Joseph yhuã nochpoch mªselqme ҫannepantla yni[34]</li>
+  <li>qʹnxetlaia-__<em>__</em>-</li>
+  <li>Y auh ỹnitlasҫano onscomani yniyzcactzaqualla zacamolli ynicontetl tlatlauhteqʹtepac mis—[35]</li>
+  <li>ynic Etetlacaxalpan ynic nauhcetl ҫacatenco. ynicmacuiltetl. atanco, atoctontli.y</li>
+  <li>quaҫentato[36] tlalnecuachililo ——–[37] cohcen xilotepecpalcuic ynic viejº. teueuec ono[38]</li>
+  <li>coliuia patl yhuicpa. yntlalizlaqui ynic jic xochitla ynҫayeno Onpa feueuec. yac</li>
+  <li>pamani yncimapan quinomazacamos tlaltitiҫecpã. ynic. xjº ҫayeno Onpaҫima ——–[39]</li>
+  <li>gactli. ynic xjº. tlalcocomoca yã ynic xujº. sº. andres mani. ỹhuicpa yntlatlatepemos</li>
+  <li>necoc XX ynic xuijº. alpoyeca tlacomolli ynic XV millixelpã ynizqʹtetl Onicte—–[40]</li>
+  <li>milliỹ ҫanmochimonepantca xelotiaz. ynҫeҫentetl milli ynquexquich mopixacaz—–[41]</li>
+  <li>ytechpouhqui ynnonanic yhuãnochpoch__<strong>__</strong></li>
+  <li>Y Auhynchcame. matlactecpantin niquimacatiuh. ỹnonamic yhuãnochpoch. quinp[42]</li>
+  <li>nepan tlaxclhuizque.</li>
+  <li>Cauhyn notelax ynic mochiua frezada niquĩmacatiuh ynnonamicyhuã nochpoch</li>
+  <li>Cauhyhuã chalchihuatl pitzauac Onpoualloncastolloҫe niqʹnmacatiuh ỹnonamic ———–[43]</li>
+  <li>nochpoch Concanizque.<em>__</em></li>
+  <li>Y yhuãcentetl nicpia tezcatl. monamacaz ynipatiuh nonepãtlaxeloz. ҫentlacotl[44]</li>
+  <li>que ỹnoxhuiuã auh ocnoҫentlacotl yninonamic. yhuã nochpoch. yhuãcentel</li>
+  <li>pachtli Cochiueloni.<strong>__</strong></li>
+  <li>Y yhuãcentetl. Caballo monamacaz. auhynipatiuh mochiuaz ymac niccauilia ỹnon[45]</li>
+  <li>yeuatl quimati.<strong>__</strong></li>
+  <li>Y yhuãҫentetl nocapa yhuã ontetl coyoyehuatl. monicmocaz. auhynipatiuh[46]</li>
+  <li>ua ynnonamic yautl quimati ỹcanpamonequi.<strong>__</strong>_</li>
+  <li>Cauh yntligo ynquino mopixcac. ayamomo temachiua yquezqui qʹauacalli</li>
+  <li>ymacnicauh ỹnonamic. onicpiaya tomines. XXXİ pesos. oncanecis yo</li>
+  <li>tlauaz amoquilcauas y ҫiuhcaqui temanaz ỹtlaones-_____</li>
+  <li>Y Auhynixquichtin ynteqʹtlatoque. ynnotechpoui yntequitlan Oniquiᵔyacan</li>
+  <li>yhuaynicquichtin ynmaҫenaltin ynoniquinno Cuitlahuiyaya. ayac Canapaya</li>
+  <li>ҫenyazque amononelniquinxeloz ynimaҫeualhuã dios ynicacmoquitlacozq~. y</li>
+  <li>yntaxquich ENT auh cayeyyo yeniquin notlatlauhti macamoquixicau</li>
+  <li>ynnonamic yhuã ynizquitetl milli yntlacpac Omoteneuh. maypaltzinco dios u–[47]</li>
+  <li>quichiuazque ynintepaleuiliz yniquiyocazque. quilimiquizque. anoҫoquipixcazque</li>
+  <li>yhuãmacamo nelchilcauazque. auhaҫeҫetica uapauazque. ynpipiltzitzinti. noxui</li>
+  <li>uã mauelquinpaleuizque quimo Cuitlahuizque.<strong>__</strong><strong>__</strong>___</li>
+</ol>
+</div>
+
+  
+		
+</div>
+
+
+
+  	    </div>
+	 </div> <!-- /.row --> 
+
+
+  	  <div class="row">
+      	     <div class="col-lg-12 col-md-12 mx-auto" style="margin-top:1.5em;margin-bottom:0em;">
+               <h3>Page 23</h3>	
+
+  	    </div>
+	 </div> <!-- /.row -->  
+
+
+  	  <div class="row">
+  	  
+  	  
+      	     <div class="col-lg-6 col-md-6 mx-auto">
+      	        <div id="osd-viewer-page-23" data-pagenum="23" class="osd" style="width:100%; height:500px;background:#EEE;margin-top:0.5em;"></div>
+      	     </div>
+  	  
+  	  
+      	     <div class="col-lg-6 col-md-6 mx-auto" style="margin-top:0.5em;margin-bottom:0em;">
+      	     
+ 	
+	
+
+
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">  	     
+
+
+
+   <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="transcription-23-tab" data-bs-toggle="tab" data-bs-target="#transcription-23" type="button" role="tab" aria-controls="transcription" aria-selected="true">Transcription</button>
+   </li>
+
+
+</ul> 
+
+
+<div class="tab-content" id="myTabContent">
+
+
+
+   <div class="tab-pane show active fade" id="transcription-23" role="tabpanel" aria-labelledby="transcription-tab" style="margin-top:1em;"><ol>
+  <li>Y ỹzcatqui niquix-[48]netztiuh meteneuhtiuh yuquimo Cuitlaliuizq~ ỹnopahuãyua</li>
+  <li>ynimaxca. ynintlazqui ytoca Jũ garª ypº ỹhuã ocectlacatl quipaleuiz—-</li>
+  <li>ytoca pºcanetiez Oztotenpã chane ynyehuantici niqʹntlatlatititiah ynicqʹx</li>
+  <li>mocuitlauizque yninmotlatealol ynicmoihincatiz maypaltzinco ỹdios. qui</li>
+  <li>chiuazque. maquitequipanozque ynoteztam ͭº anocomo codiҫillo anoҫoatotzõq~s</li>
+  <li>catlaneqʹliz ynichicanauatilli auhynimelauaca eca–[49]lli macencaqʹmocuitlauizq~</li>
+  <li>yniqʹciuhcainochiuaz. nelliz ynizquitla mantli ——– tictlaliniuh notestam ͭº ynic</li>
+  <li>yciuhcamoch-caz. uah yntlaytlauticamochiua yniconquĩ notlatlauhtilitiuh. caye</li>
+  <li>auhyn tlaoccentotl notestam ͭº Canapanecҫiz nicpoloua nimanotceqʹ ypenpouis</li>
+  <li>yyuhqʹnatley anoҫoytlaacaquipia notlahcol andco OnicnoaZniquilhui. nicte</li>
+  <li>neuili. ynicytla ytechnicpouhtiaz yniquetla ycentla cauhtiaceynihquichnimiqʹs</li>
+  <li>mochinicpoloua can yeyyonicnequineltin[50] ynipaninno testam ͭº nictlalitiuh–</li>
+  <li>auhyntlayniocpanneciz. attla me. tlaquimatica ynqʹmoCuatlaui a Justeҫen yn</li>
+  <li>tetlatzontequiliano Cayeuatli ỹue noyollocopa nicauhtiuh.</li>
+  <li>auhynomothiuh—[51] Cantellan ytocayoca. S. Joseph ynicpantestigos. ỹcely</li>
+  <li>panpa Onotcaloque. ynicҫentlacatl ytoca alonso mendez. yhuã mig ͭ garª yuan</li>
+  <li>pº garª Cuizcomactlatlapo. yhuã Juº bas ͭ. yhuã fianᶯº perez yhuã viҫente. destuº</li>
+  <li>chin. Auhỹneuatl nimigt. garª Ejcrº nican tillan. Oniqui Cuilo ynĩtestam ͭº.</li>
+  <li>Onechtlatlauhti yntoribio feliciano yntlacpac Omotenez—-[52] yhuan</li>
+  <li>Omofirmaroti yhuaniqui toua ynniEjerº. Caniquiximati yntoribio feliaci</li>
+  <li>ano. ynqʹchiuhtiuh testamento. uelnixpã yhuãniquimixi mati: yntestigosº</li>
+  <li>yntlacpac Omote neuhque. axcan sabaro. yc jilhuitia —[53] etztli seti</li>
+  <li>embre.[54] 1571 años ___</li>
+  <li>Y nican mafirmatia yntoribio feliciano auhypãpa mouellacuiloua</li>
+  <li>ycoqʹfirmati. ynxpõbal rramirez. toribio feliciano malºmendez. megt.</li>
+  <li>garª pº garª vicente gesJuºchi Juibap ͭ fiani peuez nicpincuiatl onitla</li>
+  <li>cuito. ninig ͭ  ͭ  garª.<strong>__</strong><strong>__</strong><em>__</em></li>
+  <li>[55]</li>
+</ol>
+</div>
+
+  
+		
+</div>
+
+
+
+  	    </div>
+	 </div> <!-- /.row --> 
+
+
+</div> <!-- /.container -->
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+
+
+      <div class="col-md-8">
+       &copy; 2024 Trustees of <a href="https://www.princeton.edu">Princeton University</a> and Nadia Cervantes Pérez<br />
+       <p style="font-size:0.8em;margin-top:0px;"><a href="/content/copyright-infringement" data-drupal-link-system-path="node/20201">Copyright Infringement</a> | <a href="/privacy-notice" data-drupal-link-system-path="node/174186">Privacy Notice</a></p>
+       
+      </div>
+      <div class="col-md-4">
+       <a href="https://www.princeton.edu"><img src="/translating-mesoamerica/assets/images/PU1line.png" width="100%"/></a>
+       
+      </div>    
+
+
+    </div>
+  </div>
+</footer>
+
+
+  <script src="/translating-mesoamerica/assets/js/scripts.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('#myTabs a').click(function (e) {
+      e.preventDefault();
+      $(this).tab('show');
+    });
+  });
+</script>
+
+
+</body>
+
+</html>
+<script>
+  
+/************************************
+* 
+*********************************/
+jQuery(document).ready(function(){
+      
+        var tilesources = [];
+    
+	function parse(manifest) {
+		const vault = new IIIFVault.Vault();
+		vault.loadManifest(manifest).then(async (m) => {
+		    m.items.forEach(function(item,i) {
+			var x = vault.get(item);
+			var x1 = vault.get(x.items[0]);
+			var x2 = vault.get(x1.items[0]);
+			var x3 = vault.get(x2.body[0]);
+			if(typeof x3.service[0]['@id'] !== undefined) { var service = x3.service[0]['@id']; }
+			else { var service = x3.service[0]['id']; } 
+			service = service.replace(' ', '%20');
+			tilesources.push(service + "/info.json");
+           
+		    }); /* end fetch */
+
+		}).then(data => {	
+			var osdviewers = jQuery(".osd");
+			jQuery.each(osdviewers, function(i,v){
+			  var id = jQuery(v).attr('id');
+			  var p  = parseInt(jQuery(v).attr('data-pagenum')) - 1;
+			  OSD(id, p);
+			
+			});
+		});	
+	}
+
+
+      parse("https://figgy.princeton.edu/concern/scanned_resources/80c11ab1-4d16-4760-a24a-f38727f1336f/manifest");  
+
+      /************************************
+      * 
+      *********************************/
+      function OSD(id, index) {
+           console.log(tilesources);
+           console.log(id, tilesources[index]);
+	    viewer = OpenSeadragon({
+	        id: id,
+	        showNavigator: false,
+	        showRotationControl: true,
+	        prefixUrl: '/translating-mesoamerica-revised/assets/openseadragon/images/',
+	        tileSources: [tilesources[index]]
+	    });      
+      }     
+    
+    
+      Mirador.viewer({
+	id: "mirador2",
+	windows: [{ manifestId: 'https://figgy.princeton.edu/concern/scanned_resources/80c11ab1-4d16-4760-a24a-f38727f1336f/manifest'}],
+	workspace: { showZoomControls: true },
+	workspaceControlPanel: { enabled: false  }
+      }); 
+        
+        
+        
+        
+});
+    
+    
+   
+    </script>
+  </body>
+
+</html>

@@ -1,0 +1,13 @@
+---
+ident: 'aubin'
+title: 'Traducción'
+pagenum: 100
+---
+El sábado 12 de febrero llegaron a orillas del lago de Tenochtitlan: Francisco Ocelotecatl, Gabriel Tlomiyauh y Baltazar Xochimitl.
+Se puso césped en San Lázaro en donde se encuentra la choza, se renovó el día jueves 28 de febrero.
+Año de 1555.
+El  día domingo 22 de septiembre el visorrey defendió las obras públicas, dijo: “Este lunes se reunirán las personas de 890 casas", también dijo: “Necesitarán de un hospital y para erigirse se necesitarán  400 pesos". Y lo erigieron los trabajadores. (revisar esta traducción).
+Y los cantores “gastarán" 300 pesos.
+La única vez que se vendió en la plaza de San Hipólito fue el miércoles 2 de octubre.
+El viernes 6 de diciembre se inició el muro.
+También fue cuando se hicieron los pilares.

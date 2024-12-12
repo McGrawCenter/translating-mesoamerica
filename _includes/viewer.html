@@ -1,0 +1,42 @@
+
+
+<script type="text/javascript">
+
+
+
+ 	jQuery(document).ready(function(){
+ 	  jQuery.get("{{m.manifest}}", function(data){
+
+ 	    var info = data.sequences[0].canvases[{{page.canvas}}].images[0].resource.service['@id']+"/info.json";
+	    var viewer = OpenSeadragon({
+	       id: "viewer",
+	       prefixUrl: "{{site.baseurl}}/assets/openseadragon/images/",
+	       tileSources:[info]
+	    });
+	  
+	  const queryString = window.location.search;
+	  
+	  const urlParams = new URLSearchParams(queryString);
+	  console.log(urlParams.get('coords'));
+	  
+	  if(urlParams.get('coords') != null) {
+		viewer.addHandler('open', function() {
+		  // Assuming you are interested in the first image in the viewer (or you only have one image)
+		  var tiledImage = viewer.world.getItemAt(0); 
+		  
+		  var imageRect = new OpenSeadragon.Rect(200, 0, 1000, 4000); // Or whatever area you want to focus on
+		  
+		  var viewportRect = tiledImage.imageToViewportRectangle(imageRect);
+		  viewer.viewport.fitBounds(viewportRect, true);
+		});
+	   }
+
+	    
+	    
+ 	  });
+ 	  
+ 	   
+ 	  
+ 	  
+ 	});
+</script>

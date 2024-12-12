@@ -1,0 +1,7 @@
+
+{% for manifest in site.data.manifests %}
+  {% if manifest.identifier == page.identifier %}
+    {% assign m = manifest %}
+  {% endif %}
+{% endfor %}
+

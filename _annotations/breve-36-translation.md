@@ -1,0 +1,10 @@
+---
+ident: 'breve'
+title: 'Translation'
+pagenum: 36
+---
+La confesión (01-15; 01-16)
+Soy pecador, me confieso ante Dios nuestro señor todopoderoso, ante la siempre verdadera virgen Santa María, ante San Miguel Arcángel, ante San Juan Bautista y el Señor San José, ante los Apóstoles San Pedro y San Pablo y ante todos los santos. Ante ti oh padre mío por pecado de pensamiento, palabra y obra, por mi culpa, por mi culpa y por mi gran culpa.
+
+The confession 
+I am a sinner, I confess in front of God our almighty Lord, in front of the ever true virgin Saint Mary, in front of Saint Michael the Archangel, in front of Saint John the Baptist and the Lord Saint Joseph, in front of the Apostles Saint Peter and Saint Paul and in front of all the saints. In front of you, oh my father, for sin in thought, word and deed, for my fault, for my fault and for my great fault.

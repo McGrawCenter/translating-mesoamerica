@@ -1,0 +1,24 @@
+---
+layout: default-es
+---
+
+<div class='container'>
+     <div class="row">
+	      
+		<div class="col-md-12">
+<h2>Acerca de este sitio</h2>
+
+<p><span class='dropcap'>"L</span>"a traducción de Mesoamérica” o "Translating Mesoamerica” es un proyecto colaborativo realizado por un grupo plurilingüe de académicos y estudiantes, el cual incluye hablantes nativos del náhuatl, español e inglés. El proyecto presenta una plataforma atractiva e interactiva donde los usuarios pueden encontrar transcripciones y traducciones de algunos de los manuscritos en náhuatl más destacados de la Biblioteca de la Universidad de Princeton. Dichos manuscritos, que abarcan desde el siglo XVI al XIX, ofrecen información invaluable sobre la vida colonial en México y Centroamérica. El náhuatl, la lengua indígena que sirvió como lengua franca en esta región durante el dominio azteca y la colonia española, es el idioma principal de estos documentos. Los integrantes de este proyecto le han dado prioridad a los manuscritos que nunca antes habían sido traducidos al español o al inglés, especialmente aquellos que documentan la manera en que los pueblos indígenas de la Nueva España adoptaron y adaptaron el cristianismo, las leyes europeas y el conocimiento occidental a su forma de vida.</p>
+
+<p>Además de transcripciones y traducciones, la plataforma proporciona información paleográfica, geográfica, contextual y lingüística. A través de esta información, los usuarios pueden aprender sobre temas críticos de la época colonial en América Latina, como el sincretismo, la transformación lingüística, la apropiación y asimilación cultural, la evangelización y las formas de resistencia indígena. También sirve como herramienta pedagógica para introducir en contexto la lengua náhuatl y sus principales características.
+Por otra parte, la plataforma es el corazón del Seminario para estudiantes de primer año en la Universidad de Princeton titulado “Translating Mesoamerica”, en el cual los estudiantes aprenden sobre conceptos básicos de paleografía y la lengua náhuatl, así como la vida de los nahuas antes y después de la conquista. Los estudiantes trabajan directamente con los manuscritos incluidos en esta plataforma y colaboran en la creación de su contenido proporcionando transcripciones paleográficas y realizando investigaciones sobre la producción cultural de los pueblos indígenas en México y Centroamérica durante la época colonial.</p>
+
+<h3>Contribuyen a este proyecto:</h3>
+<p>Nadia Cervantes Pérez, Humberto Iglesias Tepec, Catalina Cruz de la Cruz, Alanna Radlo-Dzur, Ben Johnston, Alex Diaz-Hui, Daniel Dominguez</p>
+
+<p>Estudiantes del seminario “Translating Mesoamerica”: Michael Groh, Noah Silverstein, Amanda Hugas, Alexandra Montgomery, Sofia Rodriguez-Tucker, Beatriz Saldana, Vincent Mann, Tyler Durán</p>
+		</div>
+	</div> <!-- /.row -->
+</div> <!-- /.container -->
+
+
