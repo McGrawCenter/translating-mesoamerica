@@ -101,6 +101,8 @@ color: #fff;
 }
 
 
+.footnotes p { margin:0px; }
+
 #annotations { display:flex;flex-wrap:wrap; }
 .annotation { 
   border:solid 1px #EEE;

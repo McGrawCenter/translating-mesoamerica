@@ -1,0 +1,16 @@
+---
+ident: 'breve'
+title: 'Traducción'
+pagenum: 15
+---
+Creo en Dios padre todopoderoso, quien creó e hizo el cielo y la tierra. También creo en Jesucristo, hijo único de Dios, y señor nuestro; quien encarnó con el milagro del Espíritu Santo de Dios, nació de la siempre virgen Santa María; sufrió bajo el mando de Poncio   Pilatos, fue crucificado en la cruz, murió y fue sepultado:
+
+Apostles Creed
+I believe in God, the Father almighty,
+Who made and creates the heaven and earth;
+and in Jesus Christ, only Son of God, Our Lord,
+Who was incarnadined by the Holy Spirit,
+born of the Virgin Saint Mary,
+suffered under Pontius Pilate,
+was crucified, died, and was buried:
+
