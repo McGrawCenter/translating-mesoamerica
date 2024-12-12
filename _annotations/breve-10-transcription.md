@@ -3,17 +3,18 @@ ident: 'breve'
 title: 'Transcription'
 pagenum: 10
 ---
-01  Para Santiguarse
-02  Ypampa imachiyo +
-03  in ihuicpa in to
-04  yaohuan + ma
-05  xitechmomaquix-
-06  tilli + totecuiyoé
-07  Diose: -Yca in
-08  tocatzin in Dios
-09  tetātzin + ihuan
-10  Dios ipiltzin
-11  ihuan Dios Espiritu
-12  Sancto. Ma yuh
-13   mochihu Jesuse
+
+1.  Para Santiguarse
+2.  Ypampa imachiyo +
+3.  in ihuicpa in to
+4.  yaohuan + ma
+5.  xitechmomaquix-
+6.  tilli + totecuiyoé
+7.  Diose: -Yca in
+8.  tocatzin in Dios
+9.  tetātzin + ihuan
+10.  Dios ipiltzin
+11.  ihuan Dios Espiritu
+12.  Sancto. Ma yuh
+13.   mochihu Jesuse
     —-------------
