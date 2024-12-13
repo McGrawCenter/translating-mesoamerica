@@ -1,6 +1,6 @@
 ---
 ident: 'land-transfers'
-title: 'Translation'
+title: 'Traducción'
 pagenum: 7
 ---
 Y cuando se dió la posesió [..] 6 pesos y cuatro monedas a las  attadesmeh justiciameh [...]
@@ -15,4 +15,4 @@ El terreno plano se encuentra cerca de la casa de Juan Ramirez.
 
 Juman Tlancoch
 
-Acatzona   
+Acatzona

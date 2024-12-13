@@ -42,7 +42,7 @@ pagenum: 9
 37. Y auhynin cnicteneuh yniconitlaxexelo. canapoalli onmatlactli psº auhy
 38. nin iomines quimopialia yneltepetl pipilti yehuan quitemacasque
 
-<h4>Footnotes</h4>
+
 [^41]: Puede que diga testamento.
 [^42]: Arriba ya no hay cupo.
 [^43]: No alcanzó en el renglón de arriba.

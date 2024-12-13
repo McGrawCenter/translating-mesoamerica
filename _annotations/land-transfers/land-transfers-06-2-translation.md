@@ -1,6 +1,6 @@
 ---
 ident: 'land-transfers'
-title: 'Translation'
+title: 'Traducción'
 pagenum: 6
 ---
 Y al tercer día tal y como se dijo en la parte de arriba de este año y [...] la attode Francisco Jiménes, el regidor mayor don Miguel Sanchez, el alguacil Gerónimo de León, el alguacil mayor Lorenzo Martin y yo el escribano. vinieron al barrio de San Juan Tepetitlan para darle posesión a Petronila Francisca y su hija Agustina Monica. Y la primera casa se encuentra en el este. La segunda casa pequeña se encuentra al lado del campo de flores. Y la tercera se encuentra en [...] y el corral viejo se encuentra en el patio y [...] su cerca. Y se encontraba junto a don Francisco Martin y el otro terreno llano en la parte trasera de la casa de Juan Ramirez que era compañero de éste. Y a orilla del río hay una cerca [...] donde se levantaron unas estacas en 10 partes. Y cuando tomaron posesión, el alguacil Lorenzo Martin las tomó y

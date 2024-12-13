@@ -44,7 +44,6 @@ pagenum: 7
 39. ypaltzinco yndios qʹcheuazqʹ maqʹteqʹpanozq~ ỹnotestameto. amoҫo nocodi
 40. cillo anoҫo notzonquiz catlanequiliz yniuhca nahuatilli. auhynimelavaca
 
-<h4>Footnotes</h4>
 
 [^32]: El documento está roto y no se alcanza a ver que dice.
 

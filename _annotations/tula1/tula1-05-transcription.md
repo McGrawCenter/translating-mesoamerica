@@ -49,7 +49,6 @@ pagenum: 5
 
 
 
-<h4>Footnotes</h4>
 
 [^13]: Después de la “a” tiene una “n” pequeña.
 [^14]: Después de la “a” tiene una “n” pequeña.

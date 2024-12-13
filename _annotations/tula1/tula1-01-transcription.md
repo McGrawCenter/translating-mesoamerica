@@ -3,15 +3,15 @@ ident: 'tula1'
 title: 'Transcription'
 pagenum: 1
 ---
-1.        Memoria yniz quitetl testam ͭ ͦ. ynychpohui
-2.        tenpã. yni quilnamicotiazque ymicmic catzi
-3.        tzintin yҫeҫe D[^1]initicã yniuh o qui cuiloti
-4.        que ypa[^2] nintestam ͭ ͦ  ỹtleyᵔ nitechmochis
-5.        ynyᵔ noeҫes quauh yc tlaocololotica[^3]
-6.        ypalehuiloca yny manimã---------------[^4].
-7.        ypa ͭ [^5]mi xiuitl de 1604. aºs. o quῖ motemoliligᵔuz
-8.        baҫeasme yntestam ͭ ͦ. Auh canelli ҫãnoquiz
-9.        copelohuaya yᵔ quez qnineҫi ҫeximitl. auh
+1. Memoria yniz quitetl testam ͭ ͦ. ynychpohui
+2. tenpã. yni quilnamicotiazque ymicmic catzi
+3. tzintin yҫeҫe D[^1]initicã yniuh o qui cuiloti
+4. que ypa[^2] nintestam ͭ ͦ  ỹtleyᵔ nitechmochis
+5. ynyᵔ noeҫes quauh yc tlaocololotica[^3]
+6. ypalehuiloca yny manimã---------------[^4].
+7. ypa ͭ [^5]mi xiuitl de 1604. aºs. o quῖ motemoliligᵔuz
+8. baҫeasme yntestam ͭ ͦ. Auh canelli ҫãnoquiz
+9. copelohuaya yᵔ quez qnineҫi ҫeximitl. auh
 10. ycoquῖmocahualtili yeycajcamiyec ynix
 11. polihui ҫayehuatl quimo cuitlahuiz yn fu[^6]
 12. Auhy naxcã yᵔtleyᵔ oytechnez noezes

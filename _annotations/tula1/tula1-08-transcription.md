@@ -32,7 +32,7 @@ pagenum: 8
 27. ny migTgarՖ
 
 
-<h4>Footnotes</h4>
+
 [^33]: Después de esta palabra están manchada y no se ve que dice.
 [^34]: No se distingue bien qué letra es.
 [^35]: Después de esta palabra están manchada y no se ve que dice.

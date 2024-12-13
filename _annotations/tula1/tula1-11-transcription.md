@@ -45,7 +45,7 @@ pagenum: 11
 40. huiliztzin.__________________
 41. noyhuã niquitohua. --------[^96]        mixquen tiuh. Niquixtenechtiuh. Ynqui
 
-<h4>Footnotes</h4>
+
 [^74]: No se ve que dice el documento está manchado.
 [^75]: No se ve que dice el documento está manchado.
 [^76]: No se ve que dice el documento está manchado.

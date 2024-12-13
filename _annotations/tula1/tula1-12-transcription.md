@@ -26,7 +26,8 @@ pagenum: 12
 21. Futigo aus tepexic chane. Yhuan. Bartolomen. c
 22. nixpan omochiuh. Diego del castillo. Es crisciano. [^105]
 
-<h4>Footnotes</h4>
+
+
 [^97]: El documento está manchado.
 [^98]: El documento está manchado y no se ve bien.
 [^99]: El documento está manchado y no se ve bien.

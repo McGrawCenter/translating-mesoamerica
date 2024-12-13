@@ -43,7 +43,6 @@ pagenum: 10
 38. Tiazque. ynteõpixqueyniguactla yahualolizpan. auhynin
 39. Ymac. nicauhtiuh yn ----- [^73]xhuian. mª des ͭ ª Ana ocyequimopializ__
 
-<h4>Footnotes</h4>
 
 [^62]: No cupo en el renglón de arriba.
 [^63]: No se ve que dice el documento está manchado.

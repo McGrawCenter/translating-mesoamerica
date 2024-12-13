@@ -1,6 +1,6 @@
 ---
 ident: 'aztec'
-title: 'English translation'
+title: 'Translation'
 pagenum: 1
 ---
 1. From here, the Mexicas moved to Tula.

@@ -14,7 +14,7 @@ h1 a, h1 a:hover { text-decoration:none; color:white;}
   font-size:0.8em;
   background: #eeebe3;
   padding: 1em;
-  margin: 1em;
+  margin: 2em 1em 0em 1em;
   border-radius: 8px;
   box-shadow: 0px 0px 3px rgba(0,0,0,0.5);
 }
@@ -28,7 +28,7 @@ h1 a, h1 a:hover { text-decoration:none; color:white;}
 }
 
 
-.icon-bar { float:right;margin:1.5em 0; display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:right;gap:0.4em; }
+.icon-bar { float:right;margin:1.5em 0; display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:right;gap:0.8em; }
 
 .icon-lg {
   height:32px;
@@ -100,7 +100,11 @@ color: #fff;
   margin:3px;
 }
 
-
+.footnotes {
+  background: #eeebe3;
+  padding: 1em;
+  border-radius: 6px;
+}
 .footnotes p { margin:0px; }
 
 #annotations { display:flex;flex-wrap:wrap; }

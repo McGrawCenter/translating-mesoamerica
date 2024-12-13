@@ -43,19 +43,23 @@
 	       </div>
       </div> <!-- /.row -->	
       
+      
+
     <div class="row">
       <div class="col-lg-12 col-md-12 mx-auto">
       
 				  <div class="icon-bar">
-				  <a href="#"><img src="{{site.baseurl}}/assets/images/filetype-pdf.svg" class='icon-lg'/></a>
-				  <a href="#"><img src="{{site.baseurl}}/assets/images/iiif.svg" class='icon-lg'/></a>
+				  <!--<a href="#"><img src="{{site.baseurl}}/assets/images/filetype-pdf.svg" class='icon-lg'/></a>-->
+				  
+				  <a href="{{m.source}}" target="_blank" title="Princeton University Library"><img src="{{site.baseurl}}/assets/images/pul_black-icon-only.svg" class='icon-lg' alt='link to Princeton University Library'/></a>
+				  <a href="{{m.manifest}}" target="_blank" title="IIIF manifest"><img src="{{site.baseurl}}/assets/images/iiif.svg" class='icon-lg' alt='link to IIIF manifest'/></a>
 				  </div>      
 
 		  {{ content }}
 		  
       </div>
     </div> <!-- /.row -->          
-      
+
 </div>
 
 

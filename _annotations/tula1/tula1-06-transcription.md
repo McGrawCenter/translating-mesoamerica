@@ -35,7 +35,7 @@ pagenum: 6
 30. tlatlauhqʹtepec milpã. ynic Etetl. Xaxalpan ynicanuhtetl ҫacatẽ
 31. co. ynicmacuiltetl atonco. atoctontli. ynicchiquaҫentetl. tlalnecuicui
 
-<h4>Footnotes</h4>
+
 [^19]: Arriba de la palabra “miquinmacatiuh” dice “chalchauitl”.
 [^20]: Esta palabra no se ve completa.
 [^21]: Después de la ychicueylhui el documento está roto.
