@@ -8,7 +8,6 @@ pagenum: 44
 2.	Nican onca quenami mopuili Santo Rosario ipal tic
 3.	tlazonanzin Santa Maria. Acastuc tic tlapālo, iuqui
 4.	ni cantiquitus castilan Himno
-
 5.	Salve del mundo señora,
 6.	salve de los cielos Reyna,
 7.	Virgen de virgines pura,
@@ -29,7 +28,6 @@ pagenum: 44
 22.	Y gloria al eterno hijo
 23.	gloria al espiritu santo,
 24.	por los siglos de los siglos.
-
 25.	Niman quipuas Christiano se Pater noster yhuan matacti
 26.	Ave Maria _ Macuili estacion macuilpa metlapalo Santa
 27.	Maria yca nican castilan tleu tatoli; yhuan macuilpa mu
@@ -42,7 +40,6 @@ pagenum: 44
 34.	teca tupanpa ixpan Dios, azu iuqui nican tic puaque Santo Rosario
 35.	ixpan tu tlazonanzin Santa Maria.- Niman ycoactamiticpua Sāto
 36.	Rosario tic tlamana iuqui nican yxpan Santa Maria.
-
 37.	con humildad te ofrecemos,
 38.	Virgen generosa ypia,
 39.	estas quentas dedicadas,
@@ -52,7 +49,6 @@ pagenum: 44
 43.	y en la muerte nos ampara,
 44.	o dulcissima Maria.
 45.	 [Firma / Signature]
-
 46.	sese Domingo sese ilhuitl quichihuas maestro, tleopantacat china
 47.	mitl nican procession se se altar mopelteca qui huicasque Santa Maria
 48.	yhuan citiales, candelas teixpan, asu unca atla izintan coro m[?]
@@ -61,4 +57,4 @@ pagenum: 44
 1.	Ipan 30 de Agosto ilhuiyo San Raimundo Nonato de 1654
 2.	Nican onca quenamih mopohuili Santo Rosario ipal to-
 3.	-tlazonanzin Santa Maria. Aacahci toctic tlapālo, iuhqui
-04	nican tiquitoz castilan Himno
+4.	nican tiquitoz castilan Himno
