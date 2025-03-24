@@ -202,7 +202,8 @@ jQuery(document).ready(function(){
     
       Mirador.viewer({
 	id: "mirador2",
-	windows: [{ manifestId: '{{m.manifest}}'}],
+	
+	windows: [{ manifestId: '{{m.manifest}}', 'thumbnailNavigationPosition':'far-bottom'}],
 	workspace: { showZoomControls: true },
 	workspaceControlPanel: { enabled: false  }
       }); 
